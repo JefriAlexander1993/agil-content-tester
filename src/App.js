@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import SearchBox from './components/SearchBox';
-import SearchResult from './components/SearchResult';
-import SavedPeople from './components/SavedPeople';
-import PersonInfo from './components/PersonInfo';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import SearchBox from './components/SearchBox.js';
+import SearchResult from './components/SearchResult.js';
+import SavedPeople from './components/SavedPeople.js';
+import PersonInfo from './components/PeopleInfo.js';
 import { fetchPeople} from './api/fetch.js';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
