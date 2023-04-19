@@ -11,7 +11,7 @@ Después de asegurar que los tienes instalado con los comando npm -v y node -v, 
 Le damos npm i o npm install que va siendo lo mismo.
 Para terminar asegurar que todas las dependencias se hayn instalado y ejecutar el siguiente comando npm run start.
 
-# NGLES
+# INGLÉS
 # DESCRIPTION
 This project has a react version "^18.2.0".
 Two packages were installed which are the following "bootstrap": "^5.2.3", "styled-components": "^5.3.9" with the intention of presenting a responsive application and also demonstrate the handling of css.
